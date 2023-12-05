@@ -1,0 +1,11 @@
+{
+  "guests": [
+    {
+      "name": "osman",
+      "address": "sorbyplan 6",
+      "mobile": "4456665444",
+      "comment": "hej på dig",
+      "id": 1
+    }
+  ]
+}

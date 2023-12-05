@@ -1,0 +1,55 @@
+ <!-- index.html -->
+
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+	<title>Guestbook</title> 
+	<link rel="stylesheet" href="style.css"> 
+</head> 
+
+<body> 
+	<div class="container"> 
+		<h1>Osmans Gästbok</h1> 
+		<form id="guestForm"> 
+			<div class="form-input"> 
+				<label for="name">Name:</label> 
+				<input type="text"
+					id="name" name="name"
+					required> 
+			</div> 
+			<div class="form-input"> 
+				<label for="address">Address:</label> 
+				<input type="text"
+					id="address" name="address"
+					required> 
+			</div> 
+			<div class="form-input"> 
+				<label for="mobile">Mobile:</label> 
+				<input type="tel"
+					id="mobile" name="mobile"
+					required> 
+			</div> 
+			<div class="form-input"> 
+				<label for="roomno"> 
+				Comment: 
+				</label> 
+                  <textarea name="comment "id="comment" placeholder="Type your comment...."></textarea>
+
+
+
+				
+			</div> 
+			<div class="btn"><button type="submit"> 
+					Add Guest 
+				</button></div> 
+		</form> 
+		<div id="guestList"></div> 
+	</div> 
+	<script src="server.js"></script> 
+</body> 
+
+</html>
